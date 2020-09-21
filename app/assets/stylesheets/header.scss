@@ -1,0 +1,75 @@
+.header_main{
+  display: flex;
+  height: 100px;
+  line-height: 100px;
+  padding: 0 0 0 50px;
+  box-shadow: 50px 20px 30px 10px rgba(0,0,0,0.5);
+  &_name{
+    margin-top: 20px;
+    width: 250px;
+    height: 60px;
+    background-image: url("re-genex.png");
+    background-size: 250px;
+  }
+  &_top{
+    height: 100%;
+    width: 66px;
+    text-align: center;
+    margin-left: auto;
+    padding: 0 20px 0 20px;
+    &_link{
+      list-style: none;
+      text-decoration: none;
+      color: #747474;
+    }
+  }
+  &_CompanyInformation{
+    height: 100%;
+    text-align: center;
+    padding: 0 20px; 
+    &_link{
+      list-style: none;
+      text-decoration: none;
+      color: #747474;
+    }
+  }
+  &_EmploymentInformation{
+    height: 100%;
+    text-align: center;
+    padding: 0 20px; 
+    &_link{
+      list-style: none;
+      text-decoration: none;
+      color: #747474;
+    }
+  }
+  &_ContactUs{
+    height: 100%;
+    text-align: center;
+    padding: 0 20px;
+    margin-right: 100px;
+    &_link{
+      list-style: none;
+      text-decoration: none;
+      color: #747474;
+    }
+  }
+}
+.fixed {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  padding: 0;
+  width: 100%;
+  z-index: 1000;
+  animation: fadeIn 0.8s linear;
+  padding-left: 50px;
+}
+@keyframes fadeIn{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}

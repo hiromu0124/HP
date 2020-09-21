@@ -1,0 +1,17 @@
+.header_information
+  =mail_to "soumu@re-genex.co.jp","soumu@re-genex.co.jp", class: "header_information_mail"
+  %a.header_information_tel(href="tel:03-3973-5518")
+    03-3973-5518
+.header_main
+  =link_to  root_path do
+    .header_main_name
+  .header_main_top
+    =link_to "Top", root_path, class: "header_main_top_link"
+  .header_main_CompanyInformation
+    =link_to "会社情報", company_path, class: "header_main_CompanyInformation_link"
+  .header_main_EmploymentInformation
+    =link_to "採用情報", employment_path, class: "header_main_EmploymentInformation_link"
+  .header_main_ContactUs
+    =link_to "お問い合わせ", contactus_path, class: "header_main_ContactUs_link"
+
+  
