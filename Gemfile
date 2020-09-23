@@ -64,4 +64,3 @@ gem "haml-rails"
 gem "gretel"
 gem "jquery-rails"
 gem 'font-awesome-sass'
-gem "font-awesome-rails"

@@ -1,7 +1,32 @@
-=render "layouts/header"
+
 .gretel
   =link_to "ホーム", root_path, class: "gretelLink"
-.company_image
-=link_to company_path do
-  .aboutus
-    =icon("fas", "fas fa-address-book", class: "icon")
+.company
+  %img{src:  "../assets/company_image.png", class:"company_image"}
+.details
+  .details_background
+    =link_to company_path, class: "details_link" do
+      .details_background_icon
+        =icon("fas", "fas fa-address-book", class: "details_background_icon")
+  .details_aboutus
+    About us
+  .details_detail
+    詳しく見る
+.details_middle
+  .details_background
+    =link_to company_path, class: "details_link" do
+      .details_background_icon
+        =icon("fas", "fas fa-address-book", class: "detail_background_icon")
+  .details_recruit
+    Recruit
+  .details_detail
+    詳しく見る
+.details_bottom
+  .details_background
+    =link_to company_path, class: "details_link" do
+      .details_background_icon
+        =icon("fas", "fas fa-address-book", class: "details_background_icon")
+  .details_contact
+    Contact
+  .details_detail
+    詳しく見る

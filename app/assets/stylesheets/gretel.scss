@@ -1,7 +1,9 @@
 .gretel{
   height: 100px;
+  width: 100%;
   background-color: #f8f8f8;
   line-height: 100px;
+  text-align: right;
 }
 .gretel_link{
   text-decoration: none;
@@ -10,10 +12,10 @@
   color: #747474;
 }
 .gretelLink{
-  display : block;
+  display: block;
   color: #6EA81A;
   text-decoration: none;
-  
+  margin-right: 230px;
 }
 a{
   color: #6EA81A;
