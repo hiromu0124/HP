@@ -27,6 +27,7 @@
     height: 100%;
     text-align: center;
     padding: 0 20px; 
+    margin: 0;
     &_link{
       list-style: none;
       text-decoration: none;
@@ -72,4 +73,28 @@
 	100%{
 		opacity: 1;
 	}
+}
+li{
+  list-style: none;
+}
+.header_main_CompanyInformation_sub{
+  height: 40px;
+  width: 168px;
+  font-size: 13px;
+  line-height: 40px;
+  position: relative;
+  display:none;
+  background-color: white;
+  padding: 10px 13px;
+  box-shadow:0px 1px 5px 0px rgba(0,0,0,0.5);
+  color: #575757;
+}
+#header_main_CompanyInformation_sub:hover{
+  background-color: #6EA81A;
+  color: white;
+}
+ul{
+  margin: 0;
+  width: 110px;
+  padding: 0;
 }

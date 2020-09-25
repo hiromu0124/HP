@@ -261,3 +261,14 @@ function showElementAnimation3() {
 }
 showElementAnimation3();
 window.addEventListener('scroll', showElementAnimation3);
+$(function(){
+  $("ul", ).hover(function(){
+    if($(".header_main_CompanyInformation_sub:first").is(":hidden")){
+      $(".header_main_CompanyInformation_sub").slideDown('fast');
+    } else{
+      $(".header_main_CompanyInformation_sub").hide();
+      
+      
+    }
+  });
+});

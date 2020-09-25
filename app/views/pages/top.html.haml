@@ -11,22 +11,22 @@
   .details_aboutus
     About us
   .details_detail
-    詳しく見る
+    =link_to "詳しく見る",company_path, class:"detailsLink"
 .details_middle
   .details_background
-    =link_to company_path, class: "details_link" do
+    =link_to employment_path, class: "details_link" do
       .details_background_icon
         =icon("fas", "fas fa-address-book", class: "detail_background_icon")
   .details_recruit
     Recruit
   .details_detail
-    詳しく見る
+    =link_to "詳しく見る",employment_path, class:"detailsLink"
 .details_bottom
   .details_background
-    =link_to company_path, class: "details_link" do
+    =link_to contactus_path, class: "details_link" do
       .details_background_icon
         =icon("fas", "fas fa-address-book", class: "details_background_icon")
   .details_contact
     Contact
   .details_detail
-    詳しく見る
+    =link_to "詳しく見る",contactus_path, class:"detailsLink"

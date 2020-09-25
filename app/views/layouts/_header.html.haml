@@ -7,8 +7,15 @@
     .header_main_name
   .header_main_top
     =link_to "Top", root_path, class: "header_main_top_link",id: "header_main_top_link"
-  .header_main_CompanyInformation
-    =link_to "会社情報", company_path, class: "header_main_CompanyInformation_link",id: "header_main_CompanyInformation_link"
+  %ul
+    .header_main_CompanyInformation
+      =link_to "会社情報", company_path, class: "header_main_CompanyInformation_link",id: "header_main_CompanyInformation_link"
+    =link_to "#",class:"a" do
+      %li.header_main_CompanyInformation_sub#header_main_CompanyInformation_sub 会社概要
+    =link_to "#" do
+      %li.header_main_CompanyInformation_sub#header_main_CompanyInformation_sub 社長挨拶
+    =link_to "#" do
+      %li.header_main_CompanyInformation_sub#header_main_CompanyInformation_sub 事業紹介
   .header_main_EmploymentInformation
     =link_to "採用情報", employment_path, class: "header_main_EmploymentInformation_link",id: "header_main_EmploymentInformation_link"
   .header_main_ContactUs
