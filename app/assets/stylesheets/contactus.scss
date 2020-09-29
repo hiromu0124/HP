@@ -31,15 +31,62 @@
     letter-spacing: 0;
   }
 }
-.contactus_address_wrap{
-  width: 65%;
-  height: (248px - 110px);
-  padding: 55px;
-}
 .contactus_address{
   height: 94px;
   font-size: 28px;
   margin: auto;
   margin: 10px 0 0 0;
-  
+  &_icon{
+    padding: 0 15px 0 0;
+  }
+}
+.contactus_address_wrap{
+  width: 65%;
+  height: (248px - 110px);
+  padding: 55px;
+}
+.contactus_address_mail_wrap{
+  color: #ffb144;
+}
+.contactus_address_mail_wrap:hover{
+  color: #000000;
+}
+.contactus_address_mail_link{
+  color: black;
+}
+.contactus_address_phone_wrap{
+  margin: 20px 0 0 0;
+  color: #ffb144;
+}
+.contactus_address_phone_wrap:hover{
+  margin: 20px 0 0 0;
+  color: #000000;
+}
+.contactus_address_phone_link{
+  color: black
+}
+.contactus_location_wrap{
+  height: 465px;
+  width: 35%;
+  padding: 55px;
+}
+.contactus_location{
+  height: 118px;
+  width: 300px;
+  margin: 150px auto;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  letter-spacing: -4px;
+  font-size: 65px;
+  font-weight: 600;
+  &_sub{
+    margin: 0;
+    font-size: 17px;
+    font-weight: normal;
+    letter-spacing: 0;
+    font-style: normal;
+    line-height: 1.5em;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+  }
 }

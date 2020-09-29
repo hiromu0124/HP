@@ -11,5 +11,17 @@
       %p.contactus_contact_sub　ご連絡はお電話、Eメールにてお待ちしています。
   .contactus_address_wrap
     .contactus_address
-      soumu@re-genex.co.jp
-      %br 03-3973-5518
+      .contactus_address_mail_wrap
+        =icon("far", "far fa-envelope", class: "contactus_address_icon")
+        =mail_to "soumu@re-genex.co.jp","soumu@re-genex.co.jp", class:"contactus_address_mail_link"
+      .contactus_address_phone_wrap
+        =icon("fas", "fas fa-phone", class: "contactus_address_icon")
+        %a.contactus_address_phone_link(href="tel:03-3973-5518")
+          03-3973-5518
+.contactus_wrap
+  .contactus_location_wrap
+    .contactus_location
+      Location
+      %p.contactus_location_sub 東京都豊島区高松1-22-1シティタワー池袋ウエストゲート 1404
+  .contactus_map
+    =render "maps/index"

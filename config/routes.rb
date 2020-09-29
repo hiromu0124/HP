@@ -4,4 +4,6 @@ Rails.application.routes.draw do
   get "company", to: "pages#company"
   get "employment", to: "pages#employment"
   get "contactus", to: "pages#contactus"
+  get 'maps/index'
+  resources :maps, only: [:index]
 end
