@@ -1,0 +1,30 @@
+.employment_main{
+  margin: 20px auto ;
+  border-collapse: collapse;
+  width: 1040px;
+  height: 100%;
+  &_trTop{
+    border-top:1px solid black ;
+    border-bottom:1px solid black;
+  }
+  &_header{
+    margin: 25px auto 15px;
+    width: 1040px;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  &_tr{
+    border-bottom:1px solid black;
+    font-size: 20px;
+  }
+  &_trbottom{
+    font-size: 20px; 
+  }
+  &_subth{
+    padding: 30px 0 20px 10px;
+    font-weight: 600;
+  }
+  &_sub{
+    padding: 30px 0 20px 10px;
+  }
+}

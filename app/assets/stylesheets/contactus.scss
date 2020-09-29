@@ -1,0 +1,45 @@
+.contactus_header{
+  font-size: 85px;
+  font-weight: 600;
+  text-align: center;
+  margin: 30px 0 0 0;
+  &_sub{
+    text-align: center;
+    font-size: 27px;
+    margin: 0;
+  }
+}
+.contactus_contact_wrap{
+  height: (248px - 110px);
+  width: 35%;
+  padding: 55px;
+}
+.contactus_wrap{
+  display: flex;
+}
+.contactus_contact{
+  font-size: 68px;
+  font-family: serif;
+  font-style: italic;
+  font-weight: 900;
+  text-align: center;
+  letter-spacing: -4px;
+  &_sub{
+    margin: 0;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 0;
+  }
+}
+.contactus_address_wrap{
+  width: 65%;
+  height: (248px - 110px);
+  padding: 55px;
+}
+.contactus_address{
+  height: 94px;
+  font-size: 28px;
+  margin: auto;
+  margin: 10px 0 0 0;
+  
+}

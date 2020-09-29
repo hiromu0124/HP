@@ -1,3 +1,39 @@
 .gretel
   - breadcrumb :company
   = breadcrumbs pretext: "", separator: " &rsaquo; ",class:"gretel_link"
+.company_header
+  .company_name
+    Re-Genex 株式会社
+  .h2
+    About us
+.company_information
+  .company_information_main
+    .company_information_main_header
+      会社情報
+    .company_information_main_boxes
+      .company_information_main_profile
+        =link_to "#" do
+          .company_information_main_profile_background
+            =icon("fas","fa fa-info-circle", class: "company_information_main_profile_background_icon")
+        .company_information_main_profile_box
+          =link_to "会社概要", "#", class:"company_information_main_profile_link"
+          .company_information_main_profile_comment
+            会社概要はこちら
+      .company_information_main_profile
+        =link_to "#" do
+          .company_information_main_profile_background
+            =icon("fas","fa fa-info-circle", class: "company_information_main_profile_background_icon")
+        .company_information_main_profile_box
+          =link_to "会社概要", "#", class:"company_information_main_profile_link"
+          .company_information_main_profile_comment
+            会社概要はこちら
+    .company_information_main_profile
+      =link_to "#" do
+        .company_information_main_profile_background
+          =icon("fas","fa fa-info-circle", class: "company_information_main_profile_background_icon")
+      .company_information_main_profile_box
+        =link_to "会社概要", "#", class:"company_information_main_profile_link"
+        .company_information_main_profile_comment
+          会社概要はこちら
+  %img{src:"assets/aboutus.jpg",class:"company_information_image"}
+  

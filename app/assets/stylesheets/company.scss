@@ -1,0 +1,86 @@
+.company_header{
+  width: 100%;
+  min-height: 298px;
+  font-family: "Playfair Display", serif;
+}
+.company_name{
+  height: 72px;
+  font-size: 72px;
+  text-align: center;
+  line-height: 298px;
+  font-weight: 600;
+}
+.h2{
+  font-size: 19px;
+  text-align: center;
+  line-height: 298px;
+}
+.company_information{
+  width: 685px + 332px;
+  height: 100%;
+  display: flex;
+  margin: auto;
+  &_main{
+    height: calc(441px - 20px);
+    width: calc(705px - 20px);
+    &_header{
+      font-size: 50px;
+      font-weight: 600;
+    }
+    &_boxes{
+      display: flex;
+    }
+    &_profile{
+      display: flex;
+      padding: 20px;
+      width:calc(342px - 40px);
+      height: calc(170px - 40px);
+      &_background{
+        width: calc(86px - 43px);
+        height: calc(86px - 43px);
+        background-color: #ffb144;
+        border-radius: 50%;
+        padding: 21.5px;
+        margin: 0 20px 0 0;
+        color: white;
+        &_icon{
+        text-align: center;
+        line-height: 86px;
+        font-size: 43px;
+        }
+      }
+      &_background:hover{
+        width: calc(86px - 43px);
+        height: calc(86px - 43px);
+        border-radius: 50%;
+        padding: 21.5px;
+        margin: 0 20px 0 0;
+        animation: 0.5s colorChanger 1;
+        animation-fill-mode: forwards;
+      }
+      @keyframes colorChanger {
+        100% {
+          background:#757575;
+          color: #ffb144;
+        }
+      }
+      &_box{
+        top: 0;
+      }
+      &_link{
+        color: black;
+        font-size: 25px;
+        font-weight: 600;
+      }
+      &_comment{
+        margin: 25px 0 0 0;
+        font-size: 15px;
+      }
+    }
+  }
+}
+.company_information_image{
+  width: 332px;
+  height: 221px;
+  margin: 75px 0 0 0;
+}
