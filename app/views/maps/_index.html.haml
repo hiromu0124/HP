@@ -8,7 +8,7 @@
 :javascript
   let map
   let geocoder
-  // 下の1行を追加 
+
   const display = document.getElementById('display')
   
   function initMap(){
@@ -35,7 +35,7 @@
             map: map,
             position: results[0].geometry.location
         });
-        // 下の1行を追加 
+        
         display.textContent = "検索結果：" + results[ 0 ].geometry.location
       } else {
         alert('該当する結果がありませんでした：' + status);

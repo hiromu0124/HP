@@ -30,7 +30,20 @@
     &_boxes{
       display: flex;
     }
+    &_profile.is-show4{
+      display: flex;
+      padding: 20px;
+      width:calc(342px - 40px);
+      height: calc(170px - 40px);
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0px);
+    }
     &_profile{
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(40px);
+      transition: all 1s;
       display: flex;
       padding: 20px;
       width:calc(342px - 40px);
